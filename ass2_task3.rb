@@ -12,13 +12,13 @@ def redoinloop
                 
 end
 
- def retryinloop
-    for i in 0..5
-        retry if i > 2
-         puts "Value of local variable is #{i}"
-     end
-end
+# def retryinloop
+#   for i in 0..5
+#         retry if i > 2
+#         puts "Value of local variable is #{i}"
+#     end
+# end
 redoinloop
-retryinloop
+#retryinloop
 
 
